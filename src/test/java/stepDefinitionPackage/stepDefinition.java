@@ -32,6 +32,7 @@ public class stepDefinition extends TestRunner {
 	public void i_click_on_search_button() {
 	    // Write code here that turns the phrase above into concrete actions
 		search_box.sendKeys(Keys.ENTER);
+		System.out.println("My first Cucumber project");
 	}
 
 	@Then("^I should be able to see the title contains the keyword$")
